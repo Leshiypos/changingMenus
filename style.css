@@ -1,0 +1,64 @@
+
+.section-duplicate-img{
+    clip-path: polygon(0% 0%, 45% 10%, 40% 85%, 5% 70%);
+    transition: all 3s;
+  }
+    .anim-1{
+      clip-path: polygon(0% 3%, 35% 5%, 25% 70%, 1% 75%);
+    }
+    .anim-2{
+      clip-path: polygon(1% 4%, 46% 12%, 35% 70%, 10% 60%);
+    }
+    .anim-3{
+      clip-path: polygon(2% 12%, 44% 16%, 50% 74%, 8% 78%);
+    }
+    .anim-4{
+      clip-path: polygon(0% 5%, 39% 16%, 45% 75%, 8% 75%);
+    }
+    .anim-5{
+      clip-path: polygon(1% 9%, 46% 12%, 30% 86%, 1% 60%);
+    }
+    .anim-6{
+      clip-path: polygon(0% 0%, 35% 10%, 40% 75%, 5% 70%);
+    }
+    .anim-7{
+      clip-path: polygon(0% 5%, 30% 12%, 45% 78%, 2% 63%);
+    }
+  .section-duplicate-link img{
+      width: 60%;
+      /*display: none;*/
+  }
+  .section-duplicate-link img.vis-img{
+    display: block;
+  }
+  .section-duplicate-link{
+    color:rgb(255, 255, 255);
+    position: relative;
+    min-height: 790px;
+    background-color: rgb(0, 0, 0);
+    padding: 20px 40px 20px 40px ;
+  }
+  .menu_header_duble{
+    position: absolute;
+    left: 50%;
+    top: 15px;
+    font-size: 70px;
+    font-weight: 500;
+  }
+
+  .menu_duble ul{
+    line-height: 1.5;
+    list-style: none;
+  }
+      .menu_duble ul li span{
+        display: block;
+        height: 3px;
+        background-color:rgb(255, 255, 255);
+        width: 0%;
+      }
+      .menu_duble a{
+        display: inline-block;
+        cursor: pointer;
+        color: white;
+        text-decoration: none;
+      }
