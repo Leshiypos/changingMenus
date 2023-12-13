@@ -1,4 +1,10 @@
+/*Удалить перед вставкой в код*/
+body {
+  background-color:rgb(0, 0, 0);
+}
 
+
+/*Вставить перед вставкой в код*/
 .section-duplicate-img{
     clip-path: polygon(0% 0%, 45% 10%, 40% 85%, 5% 70%);
     transition: all 3s;
@@ -35,8 +41,7 @@
     color:rgb(255, 255, 255);
     position: relative;
     min-height: 790px;
-    background-color: rgb(0, 0, 0);
-    padding: 20px 40px 20px 40px ;
+    padding: 20px 40px 60px 40px ;
   }
   .menu_header_duble{
     position: absolute;
